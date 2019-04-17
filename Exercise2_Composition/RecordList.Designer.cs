@@ -31,6 +31,7 @@
             this.listbox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listbox.FormattingEnabled = true;
             this.listbox.Location = new System.Drawing.Point(0, 0);
+            this.listbox.MultiColumn = true;
             this.listbox.Name = "listbox";
             this.listbox.Size = new System.Drawing.Size(636, 480);
             this.listbox.TabIndex = 0;

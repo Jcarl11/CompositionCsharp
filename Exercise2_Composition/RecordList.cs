@@ -9,6 +9,7 @@ namespace Exercise2_Composition {
         public RecordList() {
             InitializeComponent();
             listbox.Items.Add(String.Format(columnTitles, "Doctor name", "Normal Patient","Patient count"));
+            
             doctors = Data.DoctorList;
 
             foreach(var doctor in doctors) {

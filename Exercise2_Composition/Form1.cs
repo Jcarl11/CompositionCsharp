@@ -38,8 +38,7 @@ namespace Exercise2_Composition
 
         private void Button_add_Click( object sender, EventArgs e ) {
             
-            if(!validateField(doctor_fname) | !validateField(doctor_lname) | 
-                !validateField( patient_name ) | !validateGender( groupbox_gender )) {
+            if(!validateField( patient_name ) | !validateGender( groupbox_gender )) {
                 return;
             }
             
@@ -94,7 +93,10 @@ namespace Exercise2_Composition
         }
 
         private void Button2_Click( object sender, EventArgs e ) {
-            doctor_firstname = doctor_fname.Text.Trim();
+            if(!validateField( doctor_fname ) | !validateField( doctor_lname )) {
+                return;
+            }
+                doctor_firstname = doctor_fname.Text.Trim();
             doctor_lastname = doctor_lname.Text.Trim();
             doctor = new Doctor( doctor_firstname, doctor_lastname );
             if (checkIfDoctorExist()) {
