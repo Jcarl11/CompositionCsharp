@@ -50,14 +50,6 @@ namespace Exercise2_Composition
             return count;
         }
 
-        public override string ToString() {
-            String value = String.Format( "{0, 0}     {1,50}     {2,100}", 
-                GetCompleteName(), 
-                getNormalPatientCount().ToString(),
-                patientsList.ToArray().Length.ToString());
-            return value;
-        }
-
         public string Fname { get => fname; set => fname = value; }
         public string Lname { get => lname; set => lname = value; }
         internal Patient Patient { get => patient; set => patient = value; }
