@@ -39,6 +39,17 @@ namespace Exercise2_Composition
             return count;
         }
 
+        public int getHypertensivePatientCount() {
+            int count = 0;
+            foreach (var patient in patientsList) {
+                patient.MedRecord.CheckCondition();
+                if (string.Equals( patient.MedRecord.Bp, "HIGH" )) {
+                    count++;
+                }
+            }
+            return count;
+        }
+
         public override string ToString() {
             String value = String.Format( "{0, 0}     {1,50}     {2,100}", 
                 GetCompleteName(), 
