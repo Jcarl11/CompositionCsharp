@@ -49,7 +49,7 @@ namespace Exercise2_Composition
 
             
             doctor.addPatient( new Patient( patientname, gender, new MedRecord( systolic, diastolic ) ) );
-            doctors.Add( doctor );
+            
             clearFields();
             MessageBox.Show( "Record added", "Result", MessageBoxButtons.OK, MessageBoxIcon.Information );    
         }
@@ -96,13 +96,15 @@ namespace Exercise2_Composition
             if(!validateField( doctor_fname ) | !validateField( doctor_lname )) {
                 return;
             }
-                doctor_firstname = doctor_fname.Text.Trim();
+            doctor_firstname = doctor_fname.Text.Trim();
             doctor_lastname = doctor_lname.Text.Trim();
             doctor = new Doctor( doctor_firstname, doctor_lastname );
+            
             if (checkIfDoctorExist()) {
                 MessageBox.Show( "Record already exist", "Error", MessageBoxButtons.OK,MessageBoxIcon.Error );
                 return;
             }
+            doctors.Add( doctor );
             groupBox1.Visible = true;
             groupBox2.Enabled = false;
             
