@@ -79,7 +79,6 @@
             // button_newrecord
             // 
             this.button_newrecord.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button_newrecord.FlatAppearance.BorderSize = 0;
             this.button_newrecord.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_newrecord.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_newrecord.Location = new System.Drawing.Point(104, 242);
@@ -154,7 +153,6 @@
             // button_add
             // 
             this.button_add.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button_add.FlatAppearance.BorderSize = 0;
             this.button_add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_add.Font = new System.Drawing.Font("Lato", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_add.Location = new System.Drawing.Point(10, 242);
