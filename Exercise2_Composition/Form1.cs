@@ -101,14 +101,12 @@ namespace Exercise2_Composition
             doctor = new Doctor( doctor_firstname, doctor_lastname );
             
             if (checkIfDoctorExist()) {
-                MessageBox.Show( "Record already exist", "Error", MessageBoxButtons.OK,MessageBoxIcon.Error );
+                MessageBox.Show( "Doctor already exist, Please enter a new one", "Error", MessageBoxButtons.OK,MessageBoxIcon.Error );
                 return;
             }
             doctors.Add( doctor );
             groupBox1.Visible = true;
             groupBox2.Enabled = false;
-            
-            
         }
 
         private bool checkIfDoctorExist() {

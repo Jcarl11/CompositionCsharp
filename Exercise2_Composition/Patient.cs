@@ -18,6 +18,7 @@ namespace Exercise2_Composition
             this.medRecord = medRecord;
         }
 
+
         public string Name { get => name; set => name = value; }
         public string Gender { get => gender; set => gender = value; }
         internal MedRecord MedRecord { get => medRecord; set => medRecord = value; }
