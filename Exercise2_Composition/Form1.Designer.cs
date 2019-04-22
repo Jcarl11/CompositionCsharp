@@ -104,9 +104,10 @@
             // radiobtn_male
             // 
             this.radiobtn_male.AutoSize = true;
+            this.radiobtn_male.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radiobtn_male.Location = new System.Drawing.Point(28, 31);
             this.radiobtn_male.Name = "radiobtn_male";
-            this.radiobtn_male.Size = new System.Drawing.Size(60, 21);
+            this.radiobtn_male.Size = new System.Drawing.Size(52, 18);
             this.radiobtn_male.TabIndex = 4;
             this.radiobtn_male.TabStop = true;
             this.radiobtn_male.Text = "Male";
@@ -115,9 +116,10 @@
             // radiobtn_female
             // 
             this.radiobtn_female.AutoSize = true;
-            this.radiobtn_female.Location = new System.Drawing.Point(116, 31);
+            this.radiobtn_female.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radiobtn_female.Location = new System.Drawing.Point(111, 31);
             this.radiobtn_female.Name = "radiobtn_female";
-            this.radiobtn_female.Size = new System.Drawing.Size(79, 21);
+            this.radiobtn_female.Size = new System.Drawing.Size(67, 18);
             this.radiobtn_female.TabIndex = 5;
             this.radiobtn_female.TabStop = true;
             this.radiobtn_female.Text = "Female";
@@ -125,6 +127,7 @@
             // 
             // numeric_diastolic
             // 
+            this.numeric_diastolic.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numeric_diastolic.Location = new System.Drawing.Point(178, 113);
             this.numeric_diastolic.Maximum = new decimal(new int[] {
             500,
@@ -132,11 +135,12 @@
             0,
             0});
             this.numeric_diastolic.Name = "numeric_diastolic";
-            this.numeric_diastolic.Size = new System.Drawing.Size(97, 25);
+            this.numeric_diastolic.Size = new System.Drawing.Size(97, 21);
             this.numeric_diastolic.TabIndex = 7;
             // 
             // numeric_systolic
             // 
+            this.numeric_systolic.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numeric_systolic.Location = new System.Drawing.Point(13, 113);
             this.numeric_systolic.Maximum = new decimal(new int[] {
             500,
@@ -144,7 +148,7 @@
             0,
             0});
             this.numeric_systolic.Name = "numeric_systolic";
-            this.numeric_systolic.Size = new System.Drawing.Size(97, 25);
+            this.numeric_systolic.Size = new System.Drawing.Size(97, 21);
             this.numeric_systolic.TabIndex = 6;
             // 
             // button_add
@@ -181,9 +185,10 @@
             // 
             // patient_name
             // 
+            this.patient_name.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.patient_name.Location = new System.Drawing.Point(10, 56);
             this.patient_name.Name = "patient_name";
-            this.patient_name.Size = new System.Drawing.Size(208, 25);
+            this.patient_name.Size = new System.Drawing.Size(208, 21);
             this.patient_name.TabIndex = 3;
             // 
             // label2
@@ -242,16 +247,18 @@
             // 
             // doctor_lname
             // 
+            this.doctor_lname.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.doctor_lname.Location = new System.Drawing.Point(178, 52);
             this.doctor_lname.Name = "doctor_lname";
-            this.doctor_lname.Size = new System.Drawing.Size(198, 25);
+            this.doctor_lname.Size = new System.Drawing.Size(198, 21);
             this.doctor_lname.TabIndex = 2;
             // 
             // doctor_fname
             // 
+            this.doctor_fname.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.doctor_fname.Location = new System.Drawing.Point(13, 52);
             this.doctor_fname.Name = "doctor_fname";
-            this.doctor_fname.Size = new System.Drawing.Size(133, 25);
+            this.doctor_fname.Size = new System.Drawing.Size(133, 21);
             this.doctor_fname.TabIndex = 1;
             // 
             // label3
