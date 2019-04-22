@@ -32,18 +32,22 @@
             // 
             // listview
             // 
+            this.listview.Alignment = System.Windows.Forms.ListViewAlignment.Left;
+            this.listview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listview.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4});
             this.listview.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listview.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listview.FullRowSelect = true;
             this.listview.GridLines = true;
             this.listview.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.listview.Location = new System.Drawing.Point(0, 0);
             this.listview.MultiSelect = false;
             this.listview.Name = "listview";
+            this.listview.Scrollable = false;
             this.listview.Size = new System.Drawing.Size(596, 253);
             this.listview.TabIndex = 1;
             this.listview.UseCompatibleStateImageBehavior = false;
@@ -57,17 +61,20 @@
             // columnHeader2
             // 
             this.columnHeader2.Text = "NORMAL PATIENT";
+            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader2.Width = 140;
             // 
             // columnHeader3
             // 
             this.columnHeader3.Text = "HYPERTENSIVE PATIENTS";
-            this.columnHeader3.Width = 140;
+            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader3.Width = 181;
             // 
             // columnHeader4
             // 
             this.columnHeader4.Text = "TOTAL PATIENT";
-            this.columnHeader4.Width = 140;
+            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader4.Width = 133;
             // 
             // RecordList
             // 
