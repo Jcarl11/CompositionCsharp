@@ -50,9 +50,9 @@ namespace Exercise2_Composition
             return count;
         }
 
-        public string Fname { get => fname; set => fname = value; }
-        public string Lname { get => lname; set => lname = value; }
-        internal Patient Patient { get => patient; set => patient = value; }
-        internal List<Patient> PatientsList { get => patientsList; set => patientsList = value; }
+
+        public string Fname { get{return fname;}  set{ fname = value; } }
+        public string Lname { get{return lname;} set{ lname = value; } }
+        public List<Patient> PatientsList { get{ return patientsList; } set{patientsList = value;} }
     }
 }

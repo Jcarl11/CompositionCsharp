@@ -7,7 +7,7 @@ namespace Exercise2_Composition {
         List<Doctor> doctors;
         public RecordList() {
             InitializeComponent();
-            doctors = Data.DoctorList;
+            doctors = Mediator.DoctorList;
             foreach (var doctor in doctors) {
                 ListViewItem listView = new ListViewItem( doctor.GetCompleteName() );
                 listView.SubItems.Add(doctor.getNormalPatientCount().ToString());

@@ -82,7 +82,7 @@ namespace Exercise2_Composition
             numeric_diastolic.Value = 0;
         }
         private void Button_show_Click( object sender, EventArgs e ) {
-            Data.DoctorList = doctors;
+            Mediator.DoctorList = doctors;
             RecordList recordList = new RecordList();
             recordList.Show();
         }

@@ -25,6 +25,6 @@ namespace Exercise2_Composition {
                 && diastolic >= diastolicMinThreshold 
                 && diastolic < diastolicMaxThreshold ? "NORMAL" : "HIGH";
         }
-        public string Bp { get => bp; set => bp = value; }
+        public string Bp { get{return bp;} set{bp = value;} }
     }
 }
